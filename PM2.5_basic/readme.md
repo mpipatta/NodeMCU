@@ -18,12 +18,12 @@ PMS5003 Vcc -> 5V from nodeMCU Vcc <br>
 PMS5003 Ground -> Ground from NodeMCU ground <br>
 PMS5003 TX -> GPIO2 of NodeMCU <br>
 
-![](images/PM25config.png)
+![](https://raw.githubusercontent.com/mpipatta/PM2.5/master/images/PM25config.png)
 
 <b>3. Upload the code to your NodeMCU (file, "PM25_basic.ino"): </b><br> The original code is available at (https://learn.adafruit.com/pm25-air-quality-sensor).
 
 <b>4. Enjoy: </b></br>
 Once you upload the code, your NodeMCU starts gathering data from PMS5003, and data are displayed on the serial interface.  
 
-![](images/PM25readings.png)
+![](https://raw.githubusercontent.com/mpipatta/PM2.5/master/images/PM25readings.png)
 
