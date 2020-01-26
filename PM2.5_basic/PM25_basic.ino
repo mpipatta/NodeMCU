@@ -9,8 +9,8 @@
 SoftwareSerial pmsSerial(2,3);
 
 void setup() {
-  Serial.begin(115200);
-  pmsSerial.begin(9600);
+  Serial.begin(9600);
+  //pmsSerial.begin(9600);
 }
  
 struct pms5003data {
