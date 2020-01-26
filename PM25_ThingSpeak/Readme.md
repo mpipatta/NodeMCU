@@ -19,7 +19,7 @@ PMS5003 Vcc -> 5V from nodeMCU Vcc <br>
 PMS5003 Ground -> Ground from NodeMCU ground <br>
 PMS5003 TX -> GPIO2 of NodeMCU <br>
 
-![](images/PM25config.png)
+![](PM2.5/images/PM25config.png)
 
 
 <b>3. Set up ThingSpeak: </b><br>
