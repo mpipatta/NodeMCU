@@ -19,13 +19,13 @@ PMS5003 Vcc -> 5V from nodeMCU Vcc <br>
 PMS5003 Ground -> Ground from NodeMCU ground <br>
 PMS5003 TX -> GPIO2 of NodeMCU <br>
 
-![](PM2.5/images/PM25config.png)
+![](https://raw.githubusercontent.com/mpipatta/PM2.5/master/images/PM25config.png)
 
 
 <b>3. Set up ThingSpeak: </b><br>
 Please set up your ThingsSpeak channel on www.thingspeak.com.  Gather your 'API key' and 'Channel ID' for use in the code.  Under Channel setting, enable three fields for data gathering (field 1: PM2.5; field 2: PM1.0; field3: PM10).
 
-![thingspeak](https://user-images.githubusercontent.com/11530521/52684231-2253a980-2f78-11e9-8c2a-095cd966f92f.png)
+![](https://raw.githubusercontent.com/mpipatta/PM2.5/master/images/TSAPI.png)
 
 <b>4. Upload the code to your NodeMCU (file, "PM25_TS.ino"): </b><br>
 Note: I slightly modified the original code (https://learn.adafruit.com/pm25-air-quality-sensor) to allow displaying data online via ThingSpeak. You will need to replace:
@@ -37,5 +37,5 @@ Note: I slightly modified the original code (https://learn.adafruit.com/pm25-air
 <b>5. Enjoy: </b></br>
 Once you upload the code, your NodeMCU starts gathering data from PMS5003, and data are displayed on ThingsSpeak.  
 
-![data](https://user-images.githubusercontent.com/11530521/52684414-c63d5500-2f78-11e9-9d23-03794f51702d.png)
+![data](https://raw.githubusercontent.com/mpipatta/PM2.5/master/images/TSvisual.png)
 
