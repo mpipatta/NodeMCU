@@ -1,4 +1,5 @@
-# PM2.5
+# PM2.5 
+File: pm25_basic.ino
 
 In this setup, you will use your NodeMCU to read PM1, PM2.5 and PM10 level from PMS5003. 
 
@@ -26,3 +27,7 @@ Once you upload the code, your NodeMCU starts gathering data from PMS5003, and d
 
 ![](images/PM25readings.png)
 
+
+---
+# PM2.5 with ThingSpeak
+File: pm25_TS.ino
