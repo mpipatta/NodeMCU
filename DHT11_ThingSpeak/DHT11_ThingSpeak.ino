@@ -37,7 +37,7 @@ void loop() {
     float t = dht.readTemperature();
     float h = dht.readHumidity();
     
-    if (isnan(h) || isnan(t)) { h=0; t=0; }
+    //if (isnan(h) || isnan(t)) { h=0; t=0; }
    
     Serial.print("Temperature: ");
     Serial.print(t);
