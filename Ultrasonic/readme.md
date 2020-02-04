@@ -20,3 +20,4 @@ SR04 Ground -> Ground from NodeMCU ground <br>
 SR04 TRIG pin -> GPI12 of NodeMCU <br>
 SR04 ECHO pin -> GPI13 of NodeMCU <br>
 
+![](https://raw.githubusercontent.com/mpipatta/NodeMCU/master/images/Ultrasonic.png)
