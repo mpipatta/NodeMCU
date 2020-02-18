@@ -15,4 +15,4 @@ Please replace ssid with your WiFi SSID and password.
 Please specify your mqtt server, mqtt port, mqtt username/password.
 Please specify your pub/sub topics.
 
-![MQTT](https://raw.githubusercontent.com/mpipatta/NodeMCU/master/images/MQTT2.jpg)
+![MQTT](https://raw.githubusercontent.com/mpipatta/NodeMCU/master/images/MQTT2.png)
