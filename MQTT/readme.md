@@ -8,10 +8,11 @@ You will need:
 - LED + resistor
 - Jumper wires
 
-![MQTT](https://raw.githubusercontent.com/mpipatta/MQTT/master/images/MQTT1.png)
+![MQTT](images/MQTT1.jpg)
+
 
 Please replace ssid with your WiFi SSID and password
 Please specify your mqtt server, mqtt port, mqtt username/password.
 Please specify your pub/sub topics.
 
-![MQTT](https://raw.githubusercontent.com/mpipatta/MQTT/master/images/MQTT2.png)
+![MQTT](images/MQTT1.jpg)
