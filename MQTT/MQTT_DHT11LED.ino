@@ -10,9 +10,9 @@ int ledState = LOW;
 long now=millis();
 long lastMeasure=0;
 
-const char* topicT ="/GROUPNAME/temp";
-const char* topicH ="/GROUPNAME/humidity";
-const char* topicLED ="/GROUPNAME/LED";
+const char* topicT ="/sensorA/temp";
+const char* topicH ="/sensorA/humidity";
+const char* topicLED ="/sensorA/LED";
 
 #include <ESP8266WiFi.h>
 #include <PubSubClient.h>
