@@ -58,7 +58,7 @@ void loop() {
   Serial.println(request);
   client.flush();
  
-  // Match the request
+  // Match the request and set ledPin according to the request
  
   int value = LOW;
   if (request.indexOf("/LED=ON") != -1)  {
@@ -69,9 +69,7 @@ void loop() {
     digitalWrite(ledPin, LOW);
     value = LOW;
   }
- 
-// Set ledPin according to the request
-//digitalWrite(ledPin, value);
+
  
   // Return the response
   client.println("HTTP/1.1 200 OK");
