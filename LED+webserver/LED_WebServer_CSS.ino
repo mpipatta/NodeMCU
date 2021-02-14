@@ -77,7 +77,25 @@ void loop() {
   client.println("HTTP/1.1 200 OK");
   client.println("Content-Type: text/html");
   client.println(""); //  do not forget this one
-
+  client.println("<!DOCTYPE HTML>");
+  client.println("<html>");
+  client.println("<head>");
+  client.println("<style>");
+  client.println(".button {");
+  client.println("background-color: #4CAF50; ");
+  client.println("border: none;");
+  client.println("color: white;");
+  client.println("padding: 15px 32px;");
+  client.println("text-align: center;");
+  client.println("text-decoration: none;");
+  client.println("display: inline-block;");
+  client.println("font-size: 16px;");
+  client.println("margin: 4px 2px;");
+  client.println("cursor: pointer;");
+  client.println("}");
+  client.println(".button2 {background-color: #e7e7e7; color: black;} /* Gray */ ");
+  client.println("</style>");
+  client.println("</head>");
   client.print("<h2>Led pin is now: </h2>");
  
   if(value == HIGH) {
